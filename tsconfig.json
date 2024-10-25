@@ -1,23 +1,23 @@
 {
     "compilerOptions": {
-      "target": "esnext",                          // Specify ECMAScript target version.
-      "lib": ["dom", "dom.iterable", "esnext"],    // Specify the set of libraries to include in the project.
-      "allowJs": true,                             // Allow JavaScript files to be compiled.
-      "skipLibCheck": true,                        // Skip type checking of declaration files.
-      "esModuleInterop": true,                     // Emit additional helpers to support CommonJS and ES modules.
-      "allowSyntheticDefaultImports": true,        // Allow default imports from modules with no default export.
-      "strict": true,                              // Enable strict type-checking options.
-      "forceConsistentCasingInFileNames": true,    // Ensure consistent file naming.
-      "module": "esnext",                          // Specify module code generation.
-      "moduleResolution": "node",                  // Specify module resolution strategy.
-      "resolveJsonModule": true,                   // Allow importing JSON files.
-      "isolatedModules": true,                     // Ensure TypeScript files are treated as isolated modules.
-      "jsx": "preserve",                           // Specify JSX code generation.
-      "noEmit": true,                              // Do not emit compiled JavaScript.
-      "incremental": true,                         // Enable incremental compilation for faster builds.
-      "types": ["vite/client"]                     // Add Vite's type definitions.
+      "target": "esnext",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "noEmit": true,
+      "incremental": true,
+      "types": ["vite/client"]
     },
-    "include": ["src"],                            // Include all files in the "src" folder.
-    "exclude": ["node_modules"]                    // Exclude "node_modules" folder from compilation.
+    "include": ["src"],
+    "exclude": ["node_modules"]
   }
   

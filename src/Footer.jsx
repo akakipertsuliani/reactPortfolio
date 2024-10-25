@@ -1,10 +1,9 @@
 import { faCheck, faEnvelope, faMessage, faPaperPlane, faUser, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useRef } from "react";
-import { Meteors } from "./components/ui/meteors";
 import emailjs from '@emailjs/browser';
 import gsap from "gsap";
-import StarsCanvas from "./components/ui/Stars";
+import StarsCanvas from "@components/ui/Stars";
 
 function Footer() {
 	const sendButtonTextRef = useRef();

@@ -1,10 +1,10 @@
 import React from "react";
 import "../App.css";
-import AngularIcon from "../assets/Skill/Angular.svg";
-import ReactIcon from "../assets/Skill/React.svg";
-import WixIcon from "../assets/Skill/Wix.svg";
-import FigmaIcon from "../assets/Skill/Figma.svg";
-import IllustratorIcon from "../assets/Skill/Illustrator.svg";
+import AngularIcon from "@assets/Skill/Angular.svg";
+import ReactIcon from "@assets/Skill/React.svg";
+import WixIcon from "@assets/Skill/Wix.svg";
+import FigmaIcon from "@assets/Skill/Figma.svg";
+import IllustratorIcon from "@assets/Skill/Illustrator.svg";
 
 function SkillText() {
 	return (

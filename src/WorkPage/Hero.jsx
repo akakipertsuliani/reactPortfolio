@@ -1,10 +1,10 @@
 import "../App.css";
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-import { Cover } from "../components/ui/cover.jsx";
-import Rings from "../components/ui/Ring.jsx";
-import Model from "../assets/Thropy/MyThropy";
-import { BackgroundLines } from "../components/ui/background-lines";
+import { Cover } from "@components/ui/cover.jsx";
+import Rings from "@components/ui/Ring.jsx";
+import Model from "@assets/Thropy/MyThropy";
+import { BackgroundLines } from "@components/ui/background-lines";
 
 function Hero() {
 	const controlPosition = () => {
