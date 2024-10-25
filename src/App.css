@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	background: #011122;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #011222;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1D2D44;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #3E536F;
+}
+
+
+textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+	background: transparent;
+	margin: 2px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #1D2D44;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background: #3E536F;
+}
+
+.welcome-text {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	animation: maskAnimation 1.5s linear 1;
+}
+
+.scroll-down-arrow {
+	z-index: 3;
+	animation: scrollDown 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+.line-hr {
+	background: linear-gradient(
+		180deg,
+		#4d4d4d 10%,
+		#ffffff7c 50%,
+		#4d4d4d 90%
+	);
+}
+
+@keyframes scrollDown {
+	0% {
+		bottom: 10px;
+	}
+
+	50% {
+		bottom: 16px;
+	}
+
+	100% {
+		bottom: 10px;
+	}
+}
+
+@keyframes maskAnimation {
+	from {
+		clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+	}
+
+	to {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+}

@@ -1,0 +1,43 @@
+.link-box {
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 80%;
+    z-index: 1;
+    background: #F2F2F20D;
+    border: 1px solid #F2F2F21A;
+    transition: left 0.3s;
+}
+
+.element {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    width: 100px;
+    z-index: 2;
+}
+
+.element:nth-child(1).active~.link-box {
+    left: 10px;
+}
+
+.element:nth-child(2).active~.link-box {
+    left: 100px;
+}
+
+.element:nth-child(3).active~.link-box {
+    left: 190px;
+}
+
+.element:nth-child(1):hover~.link-box {
+    left: 10px;
+}
+
+.element:nth-child(2):hover~.link-box {
+    left: 100px;
+}
+
+.element:nth-child(3):hover~.link-box {
+    left: 190px;
+}
+
