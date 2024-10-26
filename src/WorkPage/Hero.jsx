@@ -3,6 +3,8 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { Cover } from "@components/ui/cover.jsx";
 import { BackgroundLines } from "@components/ui/background-lines";
+import { faCircleChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Hero() {
 	const controlPosition = () => {
@@ -51,11 +53,7 @@ function Hero() {
 
                 <div className="scroll-down-arrow absolute bottom-4 left-1/2 transform -translate-x-1/2 w-16 h-16 flex justify-center items-center">
                     <a href="#section-2">
-                        <img
-                            src="src/assets/CircleArrowDown.svg"
-                            alt="Scroll Down"
-                            className="w-9 aspect-square"
-                        />
+                        <FontAwesomeIcon className="text-3xl text-white" icon={faCircleChevronDown} />
                     </a>
                 </div>
             </section>
