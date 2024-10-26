@@ -3,7 +3,7 @@ import { useGLTF } from '@react-three/drei'
 import gsap from 'gsap'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('/myThropy.gltf')
+  const { nodes, materials } = useGLTF("/myThropy.gltf")
   const meshRef = useRef()
 
   useEffect(() => {
@@ -40,4 +40,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/myThropy.gltf')
+useGLTF.preload("/myThropy.gltf")
