@@ -2,7 +2,6 @@ import "../App.css";
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { Cover } from "@components/ui/cover.jsx";
-import Rings from "@components/ui/Ring.jsx";
 import { BackgroundLines } from "@components/ui/background-lines";
 
 function Hero() {
@@ -48,7 +47,6 @@ function Hero() {
                     }}
                 >
                     <ambientLight intensity={2} />
-                    <Rings position={controlPosition()} />
                 </Canvas>
 
                 <div className="scroll-down-arrow absolute bottom-4 left-1/2 transform -translate-x-1/2 w-16 h-16 flex justify-center items-center">
