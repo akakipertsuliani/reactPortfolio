@@ -16,7 +16,7 @@ function Nav() {
 		<>
 			<nav className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px]">
 				<ul className="relative rounded-3xl w-full bg-[#F2F2F20D] backdrop-blur-md flex justify-between items-center p-4">
-					<Link className={`element ${location.pathname === "/reactPotrfolio" ? "active" : ""}`} to="/">
+					<Link className={`element ${location.pathname === "/reactPotrfolio" ? "active" : ""}`} to="/reactPotrfolio">
 						Work
 					</Link>
 					<Link className={`element ${location.pathname === "/about" ? "active" : ""}`} to="/about">
