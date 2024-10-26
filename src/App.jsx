@@ -21,7 +21,7 @@ function App() {
             <>
                 {!loading ? <Header /> : false}
                 <Routes>
-                	{!loading ? <Route path="/" element={<Work />} /> : false}
+                	{!loading ? <Route path="/reactPotrfolio" element={<Work />} /> : false}
                 	{!loading ? <Route path="/about" element={<About />} /> : false}
                 	{!loading ? <Route path="/contact" element={<Footer />} /> : false}
                 </Routes>

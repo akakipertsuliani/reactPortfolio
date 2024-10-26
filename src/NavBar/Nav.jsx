@@ -16,7 +16,7 @@ function Nav() {
 		<>
 			<nav className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px]">
 				<ul className="relative rounded-3xl w-full bg-[#F2F2F20D] backdrop-blur-md flex justify-between items-center p-4">
-					<Link className={`element ${location.pathname === "/" ? "active" : ""}`} to="/">
+					<Link className={`element ${location.pathname === "/reactPotrfolio" ? "active" : ""}`} to="/">
 						Work
 					</Link>
 					<Link className={`element ${location.pathname === "/about" ? "active" : ""}`} to="/about">
@@ -31,7 +31,7 @@ function Nav() {
 
 			<nav className={`block lg:hidden absolute top-0 right-0 z-[51] h-dvh w-screen bg-[#F2F2F20D] backdrop-blur-md transition-transform ${ menuOpen ? "transform-none" : "translate-x-full" }`}>
 				<ul className="absolute top-36 right-10 flex flex-col items-end justify-between h-1/3">	
-					<Link className="text-white text-3xl" onClick={toggleMenu} to="/">Work</Link>
+					<Link className="text-white text-3xl" onClick={toggleMenu} to="/reactPotrfolio">Work</Link>
 					<Link className="text-white text-3xl" onClick={toggleMenu} to="/about">About</Link>
 					<Link className="text-white text-3xl" onClick={toggleMenu} to="/contact">Contact</Link>
 				</ul>
